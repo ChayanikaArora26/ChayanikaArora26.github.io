@@ -8,128 +8,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .section-title { border-left: 4px solid #4f46e5; padding-left: 1rem; margin-bottom: 2rem; }
+        .section-heading { border-left: 5px solid #4f46e5; padding-left: 1rem; margin-bottom: 2rem; font-weight: 900; font-size: 1.875rem; }
     </style>
 </head>
-<body class="bg-gray-50 text-slate-900">
+<body class="bg-white text-slate-900">
 
-    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-6 py-4">
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 px-6 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <span class="text-2xl font-black text-indigo-600 tracking-tighter">CA.</span>
-            <div class="hidden md:flex gap-8 items-center font-bold text-sm">
-                <a href="#projects" class="hover:text-indigo-600 transition">Projects</a>
-                <a href="#experience" class="hover:text-indigo-600 transition">Experience</a>
-                <a href="#publications" class="hover:text-indigo-600 transition">Research</a>
-                <a href="CV_Chayanika_Arora_AI_DS.docx" download class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition">Download CV</a>
+            <span class="text-2xl font-black text-indigo-600">CA.</span>
+            <div class="hidden md:flex gap-6 items-center font-bold text-xs uppercase tracking-widest">
+                <a href="#about" class="hover:text-indigo-600">About</a>
+                <a href="#experience" class="hover:text-indigo-600">Experience</a>
+                <a href="#projects" class="hover:text-indigo-600">Projects</a>
+                <a href="#publications" class="hover:text-indigo-600">Research</a>
+                <a href="CV_Chayanika_Arora_AI_DS.docx" download class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">CV</a>
             </div>
         </div>
     </nav>
 
-    <section class="pt-32 pb-20 px-6">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <section id="about" class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/3">
-                <img src="IMG-20231211-WA0048.jpg" alt="Chayanika Arora" class="w-full rounded-2xl shadow-2xl border-4 border-white ring-1 ring-slate-200">
+                <img src="IMG-20231211-WA0048.jpg" alt="Chayanika Arora" class="w-full rounded-3xl shadow-2xl border-8 border-slate-50">
             </div>
             <div class="md:w-2/3">
-                <h1 class="text-5xl font-black mb-4">Chayanika Arora</h1>
-                <p class="text-xl text-indigo-600 font-bold mb-6">Master of Computer Science @ University of Sydney</p>
-                <div class="flex gap-6 mb-8 text-2xl">
-                    <a href="https://github.com/ChayanikaArora26" target="_blank" class="hover:text-indigo-600"><i class="fab fa-github"></i></a>
-                    <a href="https://github.com/chayanika840" target="_blank" class="hover:text-indigo-600 text-slate-400"><i class="fab fa-git-alt"></i></a>
-                    <a href="https://www.linkedin.com/in/chayanika7974b01b" target="_blank" class="hover:text-indigo-600 text-blue-600"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="hover:text-indigo-600 text-emerald-600"><i class="fab fa-researchgate"></i></a>
-                </div>
-                <p class="text-slate-600 leading-relaxed max-w-2xl text-lg">
-                    Specializing in MLOps, AI Inference, and applied machine learning. Demonstrated capacity to convert complex technological ideas into production-ready solutions.
+                <h1 class="text-6xl font-black mb-4">Chayanika Arora</h1>
+                <p class="text-xl text-indigo-600 font-bold mb-6">Master of Computer Science @ University of Sydney (WAM: 75.2)</p>
+                <p class="text-slate-600 leading-relaxed text-lg mb-8">
+                    Postgraduate student with practical expertise in MLOps, software engineering, and AI/ML. Demonstrated capacity to convert difficult technological ideas into production-ready solutions.
                 </p>
+                <div class="flex gap-6 text-3xl">
+                    <a href="https://github.com/ChayanikaArora26" target="_blank" class="hover:text-indigo-600"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/chayanika840" target="_blank" class="hover:text-indigo-600"><i class="fab fa-git-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/chayanika7974b01b" target="_blank" class="text-blue-600 hover:text-indigo-600"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-emerald-600 hover:text-indigo-600"><i class="fab fa-researchgate"></i></a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-white px-6">
+    <section id="experience" class="py-20 bg-slate-50 px-6">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-3xl font-black section-title">Technical Expertise</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <h2 class="section-heading">Professional Experience</h2>
+            <div class="space-y-12">
                 <div>
-                    <h3 class="font-bold text-indigo-600 mb-2">Languages</h3>
-                    <p class="text-sm text-slate-500">Python, Java, JavaScript, SQL, HTML, CSS</p>
+                    <h3 class="text-xl font-black text-slate-800">Software Development Engineer | Truminds Software Systems</h3>
+                    <p class="text-indigo-600 font-bold text-sm mb-4">Feb 2023 – Jul 2024</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 text-sm">
+                        <li>Optimised AI inference pipelines for Qualcomm AI Benchmarking[cite: 24].</li>
+                        <li>Implemented real-time video streaming and human-presence detection systems[cite: 25].</li>
+                        <li>Built ML deployment and monitoring pipelines as part of MLOps workflows[cite: 26].</li>
+                        <li>Co-developed Level 42 AI Mobile App for gesture recognition and heart-rate estimation[cite: 27].</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-indigo-600 mb-2">AI & ML</h3>
-                    <p class="text-sm text-slate-500">Machine Learning, Deep Learning, NLP, Computer Vision</p>
+                    <h3 class="text-xl font-black text-slate-800">Senior Buddy – Women in Engineering | University of Sydney</h3>
+                    <p class="text-indigo-600 font-bold text-sm mb-4">Jun 2025 – Present</p>
+                    <p class="text-slate-600 text-sm">Academic guidance and career mentoring for postgraduate women in engineering[cite: 18].</p>
                 </div>
-                <div>
-                    <h3 class="font-bold text-indigo-600 mb-2">Frameworks</h3>
-                    <p class="text-sm text-slate-500">TensorFlow, Keras, Pandas, NumPy, MediaPipe</p>
-                </div>
-                <div>
-                    <h3 class="font-bold text-indigo-600 mb-2">Databases</h3>
-                    <p class="text-sm text-slate-500">SQL, Oracle, Database Programming</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold">Warehouse Operator | Skutopia</h4>
+                        <p class="text-xs text-slate-400 mb-2">Feb 2025 – Dec 2025</p>
+                        <p class="text-xs text-slate-500">Inventory management and order fulfilment[cite: 20].</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Cashier | Supabarn</h4>
+                        <p class="text-xs text-slate-400 mb-2">Jul 2024 – Present</p>
+                        <p class="text-xs text-slate-500">POS transactions and customer service[cite: 22].</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="py-20 bg-slate-50 px-6">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-3xl font-black section-title">Projects</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Warehouse Agentic AI</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">Stock Management System built with LLMs.</p>
-                    <a href="https://github.com/ChayanikaArora26" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Recipe Generator</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">Real-time LLM-based generator from input images.</p>
-                    <a href="https://github.com/chayanika840" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Pneumonia Detection</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">X-ray analysis model utilizing deep learning.</p>
-                    <a href="https://github.com/chayanika840" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Sentiment Music Player</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">Sentiment-based playlist generation.</p>
-                    <a href="https://github.com/chayanika840" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Car Price Prediction</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">Linear regression for valuation.</p>
-                    <a href="https://github.com/chayanika840" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="font-bold text-lg mb-2">Spam-Ham Classification</h3>
-                    <p class="text-sm text-slate-500 italic mb-4">NLP model for email classification.</p>
-                    <a href="https://github.com/chayanika840" class="text-indigo-600 font-bold text-xs uppercase tracking-widest">View Repository →</a>
-                </div>
+    <section id="projects" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="section-heading">Technical Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Warehouse Agentic AI</h4>
+                <p class="text-xs text-slate-500">Real-time LLM-based stock management system[cite: 33].</p>
             </div>
-        </div>
-    </section>
-
-    <section id="publications" class="py-20 px-6 max-w-7xl mx-auto">
-        <h2 class="text-3xl font-black section-title">Research Publications</h2>
-        <div class="grid gap-4">
-            <div class="p-6 bg-white border border-slate-100 rounded-xl flex justify-between items-center hover:bg-slate-50 transition">
-                <span class="font-bold text-slate-700">ADAMAX-Based Optimization of Efficient Net V2 for NSFW Content Detection</span>
-                <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-sm">Paper Link</a>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Recipe Generator</h4>
+                <p class="text-xs text-slate-500">LLM-based recipe generation from input images[cite: 34].</p>
             </div>
-            <div class="p-6 bg-white border border-slate-100 rounded-xl flex justify-between items-center hover:bg-slate-50 transition">
-                <span class="font-bold text-slate-700">Ambient Intelligence in Healthcare</span>
-                <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-sm">Paper Link</a>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">AI Benchmarking</h4>
+                <p class="text-xs text-slate-500">Qualcomm vs NVIDIA performance analysis[cite: 35].</p>
             </div>
-            <div class="p-6 bg-white border border-slate-100 rounded-xl flex justify-between items-center hover:bg-slate-50 transition">
-                <span class="font-bold text-slate-700">Efficient Net V2 Algorithm-Based NSFW Content Detection</span>
-                <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-sm">Paper Link</a>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Pneumonia Detection</h4>
+                <p class="text-xs text-slate-500">ML model for medical X-ray analysis[cite: 36].</p>
             </div>
-            <div class="p-6 bg-white border border-slate-100 rounded-xl flex justify-between items-center hover:bg-slate-50 transition">
-                <span class="font-bold text-slate-700">Skin Disease Classification using Deep Learning Techniques</span>
-                <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-sm">Paper Link</a>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Gesture & Heart Rate</h4>
+                <p class="text-xs text-slate-500">Recognition algorithms using MediaPipe[cite: 37].</p>
             </div>
-            <div class="p-6 bg-white border border-slate-100 rounded-xl flex justify-between items-center hover:bg-slate-50 transition">
-                <span class="font-bold text-slate-700">Pneumonia detection model utilising deep learning algorithms</span>
-                <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-sm">Paper Link</a>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Sentiment Music</h4>
+                <p class="text-xs text-slate-500">Sentiment-based smart music player[cite: 38].</p>
+            </div>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Car Price Prediction</h4>
+                <p class="text-xs text-slate-500">Linear regression valuation model[cite: 39].</p>
+            </div>
+            <div class="p-6 bg-white border border-slate-100 shadow-sm rounded-xl">
+                <h4 class="font-black text-sm mb-2">Spam Classification</h4>
+                <p class="text-xs text-slate-500">Email security classification model[cite: 40].</p>
             </div>
         </div>
     </section>
@@ -137,24 +123,37 @@
     <section class="py-20 bg-slate-900 text-white px-6">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-3xl font-black mb-12 border-l-4 border-indigo-500 pl-4">Certifications</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm text-slate-400">
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> MLOps Essentials (LinkedIn Learning, 2026)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> Microsoft Azure AI Essentials (2025)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> Introduction to AI Concepts (Microsoft, 2025)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> Database Agent with LLMs (2025)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> ML with Python: Foundations (2025)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> AI with Python (Great Learning, 2024)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> Product Management (2023)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> Database Foundations Learner (Oracle, 2021)</div>
-                <div class="flex items-start gap-3"><i class="fas fa-check-circle text-indigo-400 mt-1"></i> AI Foundations (IBM, 2020)</div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-4 text-xs text-slate-400">
+                <p>• MLOps Essentials (LinkedIn Learning, 2026) [cite: 42]</p>
+                <p>• Microsoft Azure AI Essentials (Dec 2025) [cite: 43]</p>
+                <p>• Introduction to AI Concepts (Microsoft, 2025) [cite: 44]</p>
+                <p>• Database Agent with LLMs (DataLearningAI, 2025) [cite: 45]</p>
+                <p>• ML with Python: Foundations (LinkedIn, 2025) [cite: 46]</p>
+                <p>• AI with Python (Great Learning, 2024) [cite: 47]</p>
+                <p>• Product Management (Great Learning, 2023) [cite: 48]</p>
+                <p>• Data Science Foundations (2022) [cite: 49]</p>
+                <p>• Database Foundations Learner (Oracle, 2021) [cite: 50]</p>
+                <p>• Java Fundamentals (Oracle, 2021) [cite: 51]</p>
+                <p>• Database Programming with SQL (Oracle, 2020) [cite: 52]</p>
+                <p>• AI Foundations (IBM, 2020) [cite: 53]</p>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 px-6 text-center text-slate-500 bg-white border-t border-slate-100">
-        <p class="font-bold text-slate-900">Chayanika Arora</p>
-        <p class="text-sm">Sydney, Australia | +61 490304491</p>
-        <p class="text-sm mt-4">&copy; 2026. Built with Tailwind CSS.</p>
+    <section id="publications" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="section-heading">Publications</h2>
+        <ul class="space-y-4 text-sm font-medium text-slate-700">
+            <li class="p-4 bg-slate-50 rounded flex justify-between">ADAMAX-Based Optimization of Efficient Net V2 for NSFW Detection [cite: 61] <a href="https://www.researchgate.net/profile/Chayanika-Arora" class="text-indigo-600">LINK</a></li>
+            <li class="p-4 bg-slate-50 rounded flex justify-between">Ambient Intelligence in Healthcare [cite: 62] <a href="https://www.researchgate.net/profile/Chayanika-Arora" class="text-indigo-600">LINK</a></li>
+            <li class="p-4 bg-slate-50 rounded flex justify-between">Efficient Net V2 Algorithm-Based NSFW Content Detection [cite: 63] <a href="https://www.researchgate.net/profile/Chayanika-Arora" class="text-indigo-600">LINK</a></li>
+            <li class="p-4 bg-slate-50 rounded flex justify-between">Skin Disease Classification using Deep Learning Techniques [cite: 64] <a href="https://www.researchgate.net/profile/Chayanika-Arora" class="text-indigo-600">LINK</a></li>
+            <li class="p-4 bg-slate-50 rounded flex justify-between">Pneumonia detection model utilising deep learning algorithms [cite: 65] <a href="https://www.researchgate.net/profile/Chayanika-Arora" class="text-indigo-600">LINK</a></li>
+        </ul>
+    </section>
+
+    <footer class="py-12 border-t text-center text-slate-400 text-xs">
+        <p>arorachayanika2@gmail.com | +61 490304491 [cite: 2, 3]</p>
+        <p class="mt-2">&copy; 2026 Chayanika Arora. Built for GitHub Pages.</p>
     </footer>
 
 </body>
