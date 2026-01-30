@@ -10,6 +10,8 @@
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .glass-card { background: white; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1.5rem; transition: all 0.3s ease; height: 100%; }
         .glass-card:hover { border-color: #6366f1; transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .separator { height: 1px; background: linear-gradient(to right, #e2e8f0, #6366f1, #e2e8f0); margin: 2rem 0; border: none; }
+        .heading-line { height: 2px; width: 60px; background: #6366f1; margin: 1rem 0; }
         .skill-tag { background: #f1f5f9; color: #4f46e5; padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
         .section-title { font-size: 2.5rem; font-weight: 900; margin-bottom: 3rem; text-align: center; color: #1e293b; }
     </style>
@@ -37,8 +39,17 @@
                 <img src="IMG-20231211-WA0048.jpg" alt="Chayanika Arora" class="w-full rounded-[2.5rem] shadow-2xl border-[12px] border-slate-50 ring-1 ring-slate-200">
             </div>
             <div class="md:w-3/5 text-center md:text-left">
-                <h1 class="text-6xl font-black mb-4 tracking-tight">Chayanika Arora</h1>
-                <p class="text-xl text-indigo-600 font-bold mb-6">Master of Computer Science @ University of Sydney</p>
+                <h1 class="text-6xl font-black mb-2 tracking-tight">Chayanika Arora</h1>
+                <div class="heading-line mx-auto md:mx-0"></div>
+                <p class="text-xl text-indigo-600 font-bold mb-4">Master of Computer Science @ University of Sydney</p>
+                <div class="heading-line mx-auto md:mx-0 w-24"></div>
+                
+                <p class="text-slate-600 leading-relaxed text-lg mb-8">
+                    Postgraduate student with practical expertise in MLOps, software engineering, and AI/ML. 
+                    Specialized in converting complex technological ideas into production-ready solutions 
+                    and high-quality technical documentation.
+                </p>
+
                 <div class="flex justify-center md:justify-start gap-6 text-3xl text-slate-400">
                     <a href="https://github.com/chayanika840" target="_blank" class="hover:text-slate-900"><i class="fab fa-github"></i></a>
                     <a href="https://github.com/ChayanikaArora26" target="_blank" class="hover:text-indigo-600"><i class="fab fa-git-square"></i></a>
@@ -56,12 +67,12 @@
                 <div class="glass-card">
                     <h3 class="text-xl font-black">Master of Computer Science (2024 – 2026)</h3>
                     <p class="text-indigo-600 font-bold">University of Sydney, Australia | WAM: 75.2</p>
-                    <p class="text-sm text-slate-600 mt-2">Skills: Python, SQL, Java, ML, Data engineering, AI, Data Science</p>
+                    <p class="text-sm text-slate-600 mt-2">Python, SQL, Java, ML, Data engineering, AI, Data Science</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="text-xl font-black">B.Tech in CS (AI & ML) (2019 – 2023)</h3>
                     <p class="text-indigo-600 font-bold">Sharda University, India | CGPA: 8.8</p>
-                    <p class="text-sm text-slate-600 mt-2">Skills: AI, ML, Python, Research Papers, Data analysis, Content Creation, and Writing</p>
+                    <p class="text-sm text-slate-600 mt-2">AI, ML, Python, Research Papers, Data analysis, Content Creation, and Writing</p>
                 </div>
             </div>
         </div>
@@ -70,78 +81,62 @@
     <section id="experience" class="py-20 px-6 bg-white">
         <div class="max-w-4xl mx-auto">
             <h2 class="section-title italic">Professional Journey</h2>
-            <div class="space-y-8 border-l-2 border-indigo-100 pl-8 ml-4">
-                <div>
+            <div class="relative border-l-2 border-indigo-100 pl-8 ml-4">
+                
+                <div class="mb-10">
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Senior Buddy – Women in Engineering</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">University of Sydney | Jun 2025 – Present</p>
-                    <p class="text-sm text-slate-600 mt-1">Provided academic guidance, career mentoring, and transition support to postgraduate women in engineering.</p>
                 </div>
-                <div>
+                
+                <hr class="separator">
+
+                <div class="mb-10">
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Cashier</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">Supabarn, Annandale | Jul 2024 – Present</p>
-                    <p class="text-sm text-slate-600 mt-1">Managed point-of-sale transactions and provided customer service.</p>
                 </div>
-                <div>
+
+                <hr class="separator">
+
+                <div class="mb-10">
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Warehouse Operator</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">Skutopia, Alexandria | Feb 2025 – Dec 2025</p>
-                    <p class="text-sm text-slate-600 mt-1">Supported inventory management, picking, packing, and order fulfilment.</p>
                 </div>
-                <div>
+
+                <hr class="separator">
+
+                <div class="mb-10">
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Software Development Engineer</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">Truminds Software Systems | Feb 2023 – Jul 2024</p>
-                    <p class="text-sm text-slate-600 mt-1">Optimised AI inference for Qualcomm; Panasonic Smart Systems real-time video; Level 42 AI App development.</p>
                 </div>
-                <div>
+
+                <hr class="separator">
+
+                <div class="mb-10">
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Web Development Intern</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">UNIcompiler | Jul 2022 – Aug 2022</p>
-                    <p class="text-sm text-slate-600 mt-1">Built full-stack web applications using HTML, CSS, JavaScript, and Node.js.</p>
                 </div>
+
+                <hr class="separator">
+
                 <div>
+                    <div class="absolute -left-[9px] w-4 h-4 bg-indigo-600 rounded-full"></div>
                     <h4 class="font-black">Python & AI Tutor Intern</h4>
                     <p class="text-indigo-600 font-bold text-xs uppercase">Madras Scientific Research Foundation | May 2021 – Jul 2021</p>
-                    <p class="text-sm text-slate-600 mt-1">Conducted AI training sessions and supported research through technical blogs.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="py-20 px-6 bg-slate-50">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="section-title italic">Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="glass-card">
-                    <h4 class="font-black text-indigo-600 mb-4 text-xs uppercase tracking-widest">Languages</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="skill-tag">Python</span><span class="skill-tag">Java</span><span class="skill-tag">SQL</span><span class="skill-tag">JavaScript</span>
-                    </div>
-                </div>
-                <div class="glass-card">
-                    <h4 class="font-black text-indigo-600 mb-4 text-xs uppercase tracking-widest">AI & ML</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="skill-tag">DL</span><span class="skill-tag">NLP</span><span class="skill-tag">CV</span><span class="skill-tag">MLOps</span>
-                    </div>
-                </div>
-                <div class="glass-card">
-                    <h4 class="font-black text-indigo-600 mb-4 text-xs uppercase tracking-widest">Tools</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="skill-tag">TensorFlow</span><span class="skill-tag">Keras</span><span class="skill-tag">MediaPipe</span>
-                    </div>
-                </div>
-                <div class="glass-card">
-                    <h4 class="font-black text-indigo-600 mb-4 text-xs uppercase tracking-widest">Soft Skills</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="skill-tag">Leadership</span><span class="skill-tag">Writing</span><span class="skill-tag">Management</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-20 px-6 bg-white">
+    <section id="projects" class="py-20 px-6 bg-slate-50">
         <div class="max-w-7xl mx-auto">
             <h2 class="section-title italic">Technical Projects</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="glass-card"><h4 class="font-bold">Warehouse Agentic AI</h4><p class="text-xs">Stock management with LLMs.</p></div>
+                <div class="glass-card"><h4 class="font-bold">Warehouse Agentic AI</h4><p class="text-xs">Stock management using LLMs.</p></div>
                 <div class="glass-card"><h4 class="font-bold">Recipe Generator</h4><p class="text-xs">LLM image-to-recipe system.</p></div>
                 <div class="glass-card"><h4 class="font-bold">Pneumonia Detection</h4><p class="text-xs">Medical X-ray analysis model.</p></div>
                 <div class="glass-card"><h4 class="font-bold">Sentiment Music Player</h4><p class="text-xs">Mood-based playlist generation.</p></div>
@@ -189,7 +184,7 @@
                 <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-xs uppercase">Link</a>
             </div>
             <div class="p-4 bg-white border rounded-xl flex justify-between items-center shadow-sm">
-                <span class="font-bold text-sm">Skin Disease Classification using Deep Learning</span>
+                <span class="font-bold text-sm">Skin Disease Classification (Deep Learning)</span>
                 <a href="https://www.researchgate.net/profile/Chayanika-Arora" target="_blank" class="text-indigo-600 font-bold text-xs uppercase">Link</a>
             </div>
             <div class="p-4 bg-white border rounded-xl flex justify-between items-center shadow-sm">
